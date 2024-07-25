@@ -17,185 +17,175 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">SIGSPATIAL DEI</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="mission.html">Mission</a></li>
-                            <li class="nav-item"><a class="nav-link" href="code.html">Code of Conduct</a></li>
-                            <!-- <li class="nav-item"><a class="nav-link" href="committee.html">Committee</a></li> -->
-                        </ul>
-                    </div>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm py-3" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">SIGSPATIAL DEI</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#code">Code of Conduct</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#material">Materials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#committee">Committee</a></li>
+                    </ul>
                 </div>
-            </nav>
-            <!-- Header-->
-            <header class="py-5">
-                <div class="container px-5 pb-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-xxl-5">
-                            <!-- Header text content-->
-                            <div class="text-center text-xxl-start">
-                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Diversity &middot; Equity &middot; Inclusion</div></div>
-                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">SIGSPATIAL DEI</span></h1>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="mission.html">Mission</a>
-                                    <a class="btn btn-outline-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="code.html">Code of Conduct</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-7">
-                            <!--
-                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-                                <div class="profile bg-gradient-primary-to-secondary">
-                                    <div class="dots-1">
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <div class="dots-2">
+            </div>
+        </nav>
 
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <div class="dots-3">
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <div class="dots-4">
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div> -->
+        <div class="container px-5">
+            <div class="text-center mb-5">
+                <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
+                    <div class="text-uppercase">Diversity &middot; Equity &middot; Inclusion</div>
+                </div>
+            </div>
+            <!-- <div class="text-center mb-5">
+                <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://www.sigspatial.org/">ACM SIGSPATIAL</a>
+            </div> -->
+        </div>
+
+        <!-- Mission -->
+        <section id="mission" class="py-5">
+            <div class="container px-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Mission</span></h1>
+                </div>
+                <div class="col-lg-12">
+                    <p style="text-align:justify">
+                    SIGSPATIAL DEI's mission is to promote, guide, and sustain diversity, equity, and inclusion in all our activities and publications. 
+                    We strive to adopt a welcoming and inclusive mindset towards individuals of all backgrounds. 
+                    We aim to discourage discriminatory behavior and support underrepresented groups through resources such as mentorship, networking opportunities, and attendance at our annual conferences. 
+                    Our initiative is in collaboration with D&I in DB, following the ACM policy against harassment and processes for reporting unacceptable behavior.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Code of Conduct -->
+        <section id="code" class="bg-light py-5">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Code of Conduct</span></h1>
+                </div>
+
+                <div class="col-lg-12">
+                    <h2 class="fw-bolder mb-0">Statement of Intent</h2>
+                    </br>
+                    <p style="text-align:justify">
+                    Our goal is to promote a positive, diverse, and inclusive environment within the ACM SIGSPATIAL community, creating the grounds to foster professional growth, facilitate networking, and maintain productive professional relationships among our members, regardless of age, gender identity, race, ethnicity, socioeconomic background, country of origin, religion, sexual orientation, physical ability, education, and work experience. 
+                    We expect all our members to strive to abide by and help promote these guidelines.
+                    </p>
+                    <h4 class="fw-bolder mb-0">Expected Behavior</h4>
+                    </br>
+                    <ul>
+                        <li><b>Treat others with respect.</b> We expect all members to treat others respectfully. Even when we hold strong opinions, we should treat others’ views with dignity and courtesy. Understand that disagreements and misunderstandings may occur, but they need to be discussed and resolved in a manner that maintains respectful conduct. </li>
+                        <li><b>Show empathy.</b> Empathize different members’ backgrounds and experiences. Discussion or mention of sensitive issues may trigger negative feelings and distress to others; understand that different life experiences may impact others’ perception of certain topics. When discussing sensitive topics, respect their gravity, and do not make light of the issues with jokes or diminishing comments. </li>
+                        <li><b>Embrace differences.</b> Respect other cultures, including official religious observances and personal habits to clothing. Do not try to impose your own standards upon others. Be aware that habits and behaviors you consider benign may not be viewed as such by others. Displays of affection, such as hugging or touching, may not be acceptable in some cultures. Avoid invading others’ personal space. </li>
+                        <li><b>Embrace diversity.</b> Treat different backgrounds as a source of strength and enrichment. Explicitly seek diversity, especially when you have the power to shape representation in highly visible positions and groups, such as program committees, keynote speakers, panel participants, etc. While English is often the dominant language within our interactions, our community is largely international. Respect that English is not the native language of many of our members. </li>
+                    </ul>
+
+                    <h4 class="fw-bolder mb-0">Examples of Unacceptable Behaviors</h4>
+                    </br>
+                    <ul>
+                        <li>Misgendering or using incorrect names, especially on purpose </li>
+                        <li>Unwelcome comments, especially after requests to stop </li>
+                        <li>Discrimination, harassment, or threats of violence </li>
+                        <li>Offensive and disrespectful comments regarding others’ culture, gender, sexual orientation, ethnicity, age, physical appearance, and religion. </li>
+                        <li>Microaggressions that intentionally or unintentionally patronize or denigrate members of traditionally marginalized groups. </li>
+                        <li>Use of racially-charged or coded language. </li>
+                        <li>Mocking someone’s appearance, culture, clothing, accent, or country of origin. </li>
+                    </ul>
+
+                    <h4 class="fw-bolder mb-0">Reporting a Problem</h4>
+                    </br>
+                    <p style="text-align:justify">
+                    Please refer to the SIGSPATIAL DEI Committee when an unacceptable behavior happens. 
+                    Also, a target can report to event chairs, the executives of respective conferences, or other event organizers who have been designated to handle such complaints. 
+                    The conference executives make the final decision on the consequences of unaccepted behaviors and take action accordingly. 
+                    They help a target understand the process and possible consequences in a confidential manner. If, with full information, a target decides to report, then the SIGSPATIAL DEI Committee will assist in filing an official complaint and follow up with the conference and ACM SIGSPATIAL executives on appropriate actions to execute. 
+                    This also applies when a witness becomes aware of an unacceptable behavior directed at another member of the community. Our code of conduct is adapted from the <a href="https://dbdni.github.io/pages/codeofconduct.html">one in D&I in DB</a>, which mirrors closely the Policy against Harassment at ACM Activities. Should you have any questions, please reach out to the SIGSPATIAL DEI Committee. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Materials -->
+        <section id="material" class="py-5">
+            <div class="container px-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Materials</span></h1>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="card-body text-center">
+                                <a class= "" href="https://docs.google.com/document/d/1_eZzZS2U24yGwXcRFidpM_NKfado2PGZxkqzFid6GeQ/edit?usp=sharing">Tips for Creating Inclusive Talks and Videos</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </header>
-            <!-- About Section-->
-            <!-- <section class="bg-light py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
-                                <p class="lead fw-light mb-4">My name is Start Bootstrap and I help brands grow.</p>
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium ratione atque dolorem?</p>
-                                <div class="d-flex justify-content-center fs-2 gap-4">
-                                    <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
-                                    <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
-                                    <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
-                                </div>
+                    <div class="col-md-6">
+                        <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="card-body text-center">
+                                <a class= "" href="https://docs.google.com/document/d/1naDy6lOnbEQTvhISGI-f5sBMgkcyaKAwTyUEm9hrAMk/edit?usp=sharing">Inclusion and Diversity in Writing</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section> -->
-        </main>
+            </div>
+        </section>
+
+        <!-- Committee -->
+        <section id="committee" class="bg-light py-5">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Committee</span></h1>
+                </div>
+                
+                <div class="text-center mb-5">
+                    <div class="author">
+                        <a href="https://yaoyichi.github.io/">
+                            <div class="author_img">
+                              <img src="https://cse.umn.edu/sites/cse.umn.edu/files/Yao-YiChiang_200x300_0.png" style="max-width: 100%;">
+                            </div>
+                            <div>Yao-Yi Chiang</div>
+                        </a>
+                    </div>
+
+                    <div class="author">
+                      <a href="https://jina-kim.github.io/">
+                            <div class="author_img">
+                              <img src="https://jina-kim.github.io/static/img/profile.jpg" style="max-width: 100%;">
+                            </div>
+                            <div>Jina Kim</div>
+                      </a>
+                    </div>
+                  
+                    <div class="author">
+                        <a href="https://hebaaly.github.io/">
+                            <div class="author_img">
+                              <img src="https://hebaaly.github.io/img/ha_office2.jpg" style="max-width: 100%;">
+                            </div>
+                            <div>Heba Aly</div>
+                        </a>
+                    </div>
+                    
+                  </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Footer-->
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; 2024</div></div>
-                    <!-- <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
-                    </div> -->
+                    <div class="col-auto">
+                        <div class="small m-0">Copyright &copy; 2024</div>
+                    </div>
+                    <div class="col-auto">
+                        <a class="small" href="https://sigspatial.org/">ACM SIGSPATIAL</a>
+                    </div>
                 </div>
             </div>
         </footer>

@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1e30f3;
-  --bs-link-hover-color: #1826c2;
+  --bs-link-color: #6610f2;
+  --bs-link-hover-color: #6610f2;
   --bs-code-color: #e21e80;
   --bs-highlight-bg: #fff3cd;
 }
@@ -92,6 +92,7 @@
 }
 
 body {
+  padding-top: 100px;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -246,7 +247,7 @@ sup {
 
 a {
   color: var(--bs-link-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -4169,6 +4170,8 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-width: 0;
   height: var(--bs-card-height);
   word-wrap: break-word;
@@ -4273,13 +4276,34 @@ textarea.form-control-lg {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  width: 100%;
+  width: 40%;
+  
 }
 
 .card-img,
 .card-img-top {
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
+}
+
+.authors {
+  text-align: center;
+}
+
+.author {
+  width: 300px;
+  display: inline-block;
+}
+
+.author_img {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  margin-bottom: 10px;
 }
 
 .card-img,
