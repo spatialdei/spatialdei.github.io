@@ -11602,6 +11602,12 @@ html {
   font-size: 1.5rem;
 }
 
+.logo-img {
+  display: inline-block;
+  width: 100px;
+  overflow: hidden;
+}
+
 .profile {
   position: relative;
   height: 75vw;
