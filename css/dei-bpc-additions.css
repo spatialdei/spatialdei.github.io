@@ -1,0 +1,50 @@
+/* Small additions to the supplied Start Bootstrap theme; the original blue/pink palette is retained. */
+.timeline-intro { max-width: 820px; }
+.timeline-card { border-top: 3px solid var(--bs-primary); }
+.timeline-year { color: var(--bs-primary); font-size: 1.2rem; font-weight: 800; margin-bottom: .7rem; }
+.land-note { max-width: 980px; margin-left: auto; margin-right: auto; padding: 1.25rem 1.5rem; background: #fff; border: 1px solid #dee2e6; border-left: 4px solid var(--bs-primary); border-radius: .5rem; }
+.land-note h2 { color: var(--bs-primary); }
+.riverside-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 1.5rem; }
+.riverside-card { height: 100%; }
+.riverside-photo-link { display: block; }
+.riverside-photo { display: block; width: 100%; height: 190px; object-fit: cover; }
+.riverside-card .card-body { display: flex; flex-direction: column; }
+.riverside-card p { line-height: 1.65; }
+.visitor-info { padding-left: 1.1rem; line-height: 1.55; }
+.visitor-info li { margin-bottom: .35rem; }
+.map-embed { display: block; width: 100%; height: 135px; border: 0; border-radius: .35rem; }
+.photo-credit { display: block; color: #6c757d; margin-top: .45rem; font-size: .7rem; }
+.archive-panel { max-width: 1000px; margin: 0 auto; padding: 1.25rem; border: 1px solid #dee2e6; border-radius: .5rem; background: #f8f9fa; }
+.archive-details > summary, .archive-records summary { cursor: pointer; color: var(--bs-primary); font-weight: 700; }
+.archive-records details { padding: .75rem 0; border-top: 1px solid #dee2e6; }
+.archive-records p { margin: .5rem 0 0; }
+@media (max-width: 767.98px) { .riverside-grid { grid-template-columns: 1fr; } }
+
+/* Full-width vertical timeline keeps longer milestones readable. */
+.timeline-list { list-style: none; max-width: 1000px; margin: 0 auto; padding: 0 0 0 3rem; display: block; position: relative; }
+.timeline-list::before { content: ""; position: absolute; top: 1rem; bottom: 1rem; left: 1.05rem; width: 3px; background: var(--bs-primary); }
+.timeline-item { position: relative; min-width: 0; padding: 0 0 1.25rem; }
+.timeline-node { position: absolute; top: 1rem; left: -3rem; transform: none; z-index: 1; width: 2.25rem; height: 2.25rem; border-radius: 50%; display: grid; place-items: center; background: var(--bs-primary); color: #fff; font-size: .68rem; font-weight: 800; box-shadow: 0 0 0 5px #fff; }
+.timeline-card .card-body { display: flex; flex-direction: column; }
+.timeline-card p { flex: 1; line-height: 1.6; }
+@media (max-width: 767.98px) { .riverside-grid { grid-template-columns: 1fr; } .riverside-photo { height: 220px; } }
+
+.author-name { display: inline-block; color: var(--bs-primary); font-weight: 700; text-decoration: none; }
+.author-name:hover, .author-name:focus { text-decoration: underline; }
+
+/* Keep in-page navigation headings clear of the fixed navbar. */
+section[id] { scroll-margin-top: 6rem; }
+
+/* Committee portraits and names use a responsive equal-width grid. */
+.authors { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 1.25rem; justify-items: center; }
+.author { width: 100%; max-width: 300px; display: flex; flex-direction: column; align-items: center; }
+.author_img { display: block; width: min(200px, 100%); height: auto; aspect-ratio: 1 / 1; overflow: hidden; border-radius: 1.25rem; margin-bottom: .6rem; }
+.author_img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.google-map-panel { min-width: 0; }
+
+
+/* Keep long timeline cards readable instead of compressing them into narrow columns. */
+.timeline-list { display: block; max-width: 1000px; margin: 0 auto; padding: 0 0 0 3rem; list-style: none; position: relative; }
+.timeline-list::before { top: 1rem; bottom: 1rem; left: 1.05rem; right: auto; width: 3px; height: auto; }
+.timeline-item { padding: 0 0 1.25rem; min-width: 0; }
+.timeline-node { top: 1rem; left: -3rem; transform: none; }
